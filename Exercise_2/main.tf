@@ -14,8 +14,8 @@ data "archive_file" "lambda-archive" {
 
 provider "aws" {
    region = "us-east-1"
-   access_key = "AKIAXCZPJJJF3HOGOS5O"
-   secret_key = "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"
+   access_key = "Hidden"
+   secret_key = "Hidden"
 }
 resource "aws_iam_role" "lambda_role" {
     name = "lambda_role"
