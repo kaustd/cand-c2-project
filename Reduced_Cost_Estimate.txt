@@ -1,0 +1,5 @@
+I have considered that my instance that will auto scale will not be utilized 100% so first created a separate category for auto scaled instances at 50% utilization. 
+
+In initial estimate I had concluded that I would need 1 instance for each web server and application hence doubling the instance size which I have reduced by half. So total instances from 4 are reduced to 2. One each for webserver and application server.
+
+Changed the instance type from c4.4xlarge to c4.4xlarge to c4.2xlarge.

@@ -1,0 +1,7 @@
+Have increased the total instances to 8 which is enough to provide redundancy and performance. The size is kept is c4.4x large for compute.
+
+S3 storage increased to 2 TB as video file size may require more storage
+
+RDS instance size changed to Fixed Performance Instances db.m5.8xlarge.
+
+Storage changed to provisioned iops for predictable, high performance and faster response times.
